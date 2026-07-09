@@ -2,8 +2,8 @@ services:
   adguard:
     image: adguard/adguardhome:v0.107.77
     ports:
-      - ${NETWORK_INTERFACE:-0.0.0.0}:53:53/tcp
-      - ${NETWORK_INTERFACE:-0.0.0.0}:53:53/udp
+      - ${NETWORK_INTERFACE:-0.0.0.0}:5353:53/tcp
+      - ${NETWORK_INTERFACE:-0.0.0.0}:5353:53/udp
       - ${NETWORK_INTERFACE:-0.0.0.0}:853:853/tcp
       - ${NETWORK_INTERFACE:-0.0.0.0}:853:853/udp
     volumes:

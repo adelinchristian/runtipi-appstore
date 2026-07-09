@@ -13,7 +13,7 @@
   "author": "AdguardTeam",
   "source": "https://github.com/AdguardTeam",
   "requirements": {
-    "ports": [5353]
+    "ports": [5553]
   },
   "form_fields": [
     {

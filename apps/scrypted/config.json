@@ -3,7 +3,7 @@
   "name": "Scrypted",
   "port": 10443,
   "available": true,
-  "exposable": true,
+  "exposable": false,
   "dynamic_config": true,
   "https": true,
   "id": "scrypted",

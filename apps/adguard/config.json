@@ -3,15 +3,16 @@
   "name": "Adguard",
   "available": true,
   "exposable": true,
-  "tipi_version": 64,
-  "version": "v0.107.79",
+  "tipi_version": 65,
+  "version": "v0.107.80",
   "port": 8104,
   "id": "adguard",
   "categories": ["network", "security"],
   "description": "Adguard is the best way to get rid of annoying ads and online tracking and protect your computer from malware. Make your web surfing fast, safe and ad-free.",
   "short_desc": "World's most advanced adblocker!",
   "author": "AdguardTeam",
-  "source": "https://github.com/AdguardTeam",
+  "source": "https://github.com/AdguardTeam/AdGuardHome",
+  "website": "https://adguard-dns.io/kb/fr/adguard-home/getting-started/",
   "requirements": {
     "ports": [5553]
   },
@@ -26,6 +27,6 @@
   "supported_architectures": ["arm64", "amd64"],
   "dynamic_config": true,
   "created_at": 1691943801422,
-  "updated_at": 1787115393631,
+  "updated_at": 1793794432810,
   "min_tipi_version": "4.7.0"
 }
